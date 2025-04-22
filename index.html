@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ap 203: Cozinha com Amor</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background-color: #F4F1DE;
+      color: #3D405B;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+    }
+    h1 {
+      color: #E07A5F;
+      font-size: 3rem;
+    }
+    .options {
+      display: flex;
+      gap: 2rem;
+      margin-top: 2rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .option-card {
+      background-color: #F2CC8F;
+      padding: 2rem;
+      border-radius: 2rem;
+      width: 250px;
+      transition: transform 0.2s, box-shadow 0.2s;
+      box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    }
+    .option-card:hover {
+      transform: scale(1.03);
+      box-shadow: 4px 4px 15px rgba(0,0,0,0.15);
+    }
+    .option-card h2 {
+      margin: 0 0 1rem 0;
+      color: #3D405B;
+    }
+    .option-card p {
+      color: #3D405B;
+    }
+    a.option-card-link {
+      text-decoration: none;
+    }
+    footer {
+      margin-top: 4rem;
+      font-size: 0.9rem;
+      color: #81B29A;
+    }
+  </style>
+</head>
+<body>
+  <h1>Ap 203: Cozinha com Amor</h1>
+  <div class="options">
+    <a href="doces.html" class="option-card-link">
+      <div class="option-card">
+        <h2>Receitas Doces</h2>
+        <p>Tortas, bolos e delícias para adoçar seu dia.</p>
+      </div>
+    </a>
+    <a href="salgadas.html" class="option-card-link">
+      <div class="option-card">
+        <h2>Receitas Salgadas</h2>
+        <p>Pratos salgados com aquele toque de amor do Ap 203.</p>
+      </div>
+    </a>
+  </div>
+  <footer>Feito com carinho ♥</footer>
+</body>
+</html>
